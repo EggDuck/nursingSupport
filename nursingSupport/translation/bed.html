@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang=ja>
+    <head>
+        <meta charset="utf-8">
+        <title>ベッド</title>
+        <link href="nursingSupport.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <section>
+            <h3>Q1. やってもらいたいことの詳細は何ですか？</h3>
+            <ol style = "list-style-type:none;" class="container">
+                <li class="item">
+                    <img src="../album/kaigoIMGL8291_TP_V4_2.jpg"><br>
+                    <Button id="bed1" class="choice" onclick="onClickBed1()">ベッドから、起き上がりたい</Button>
+                </li>
+                <li class="item">
+                    <img src="../album/kaigoIMGL8291_TP_V4_3.jpg"><br>
+                    <Button id="bed2" class="choice" onclick="onClickBed2()">ベッドに、寝たい</Button>
+                </li>
+                <li class="item">
+                    <img src="../album/lounge-20029_640_2.jpg"><br>
+                    <Button id="bed3" class="choice" onclick="onClickBed3()">ベッドの、傾きをかえたい</Button>
+                </li>
+            </ol>
+            <div class="answer"></div>
+        </section>
+        <section>
+            <div>
+                <h3>Q2. どの国の言葉に翻訳したいですか？</h3>
+                <ol style = "list-style-type:none;" class="container2">
+                    <li class="item2">
+                        <Button id="usa" class="choice2" onclick="onClickEnglish()">English</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="china" class="choice2" onclick="onClickChinese()">中文</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="korea" class="choice2" onclick="onClickKorean()">한국어</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="vietnam" class="choice2" onclick="onClickVietnamese()">Tiếng Việt</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="brazil" class="choice2" onclick="onClickBrazil()">Português</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="nepal" class="choice2" onclick="onClickNepali()">नेपाली</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="indonesia" class="choice2" onclick="onClickBahasaIndonesia()">Bahasa Indonesia</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="myanmar" class="choice2" onclick="onClickBurmese()">မြန်မာဘာသာ</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="peru" class="choice2" onclick="onClickPeruvian()">Español</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="france" class="choice2" onclick="onClickFrench()">Français</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="germany" class="choice2" onclick="onClickDeutsch()">Deutsch</Button>
+                    </li>
+                    <li class="item2">
+                        <Button id="italy" class="choice2" onclick="onClickItaliano()">Italiano</Button>
+                    </li>
+                </ol>
+                <div class="translatedAnswer"></div>
+            </div>
+        </section>
+        <script src="nursingSupport.js" type="text/javascript"></script>
+        <script src="nursingSupport2.js" type="text/javascript"></script>
+    </body>
+</html>

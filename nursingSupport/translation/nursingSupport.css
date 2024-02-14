@@ -1,0 +1,395 @@
+@media screen and (min-width: 1025px) {
+    /* PC用 */
+    /* 基本CSS */
+    body {
+        background-color: lightyellow;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 24px;
+        color: black;
+    }
+    h1 {
+        font-size: 45px;
+        color: violet;
+        text-align: center;
+    }
+    h2 {
+        font-size: 36px;
+        color: black;
+        text-align: left;
+    }
+    h3 {
+        font-size: 30px;
+        color: black;
+    }
+    .item {
+        background: blanchedalmond;
+        text-align: center;
+        margin: 5px;
+        padding: 25px;
+    }
+    img {
+        height: 210px;
+        width: 315px;
+        position: relative;
+        text-align: center;
+    }
+    
+    
+    /* JSで出力される部分の装飾 */
+    .answer {
+        text-align: center;
+        margin-top:20px;
+        font-size: 40px;
+        color: violet;
+    }
+    .translatedAnswer {
+        text-align: center;
+        margin-top:20px;
+        font-size: 40px;
+        color: blue;
+    }
+    
+    
+    /* ボタンの装飾 */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 420px 420px 420px;
+        margin: auto;
+    }
+    .choice {
+        display       : inline-block;
+        border-radius : 5%;          
+        font-size: 21px;
+        text-align    : center;      
+        cursor        : pointer;     
+        padding       : 12px 12px;   
+        background    : violet;     
+        color         : black;     
+        line-height   : 1em;         
+        transition    : .3s;         
+        box-shadow    : 6px 6px 3px #666666;  
+        border        : 2px solid #000066;    
+    }
+    .button:hover {
+        box-shadow    : none;        
+        color         : #000066;     
+        background    : #ffffff;     
+    }
+    
+    
+    /* 国旗ボタンの装飾 */
+    .container2 {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 250px 250px 250px 250px;
+        margin: auto;
+    }
+    .choice2 {
+        font-size: 45px;
+        color: blue;
+        width: 250px;
+        height: 135px;
+    }
+    #usa {
+        background: url('../album/american-flag-2144392_640.png');
+    }
+    #china {
+        background: url('../album/china-162389_640.png');
+    }
+    #korea {
+        background: url('../album/korean-flag-1424985_640.png');
+    }
+    #vietnam {
+        background: url('../album/vietnam-26834_640.png');
+    }
+    #brazil {
+        background: url('../album/brazil-305531_640.png');
+    }
+    #nepal {
+        background: url('../album/nepal-162370_640.png');
+    }
+    #indonesia {
+        background: url('../album/indonesia-26817_640.png');
+    }
+    #myanmar {
+        background: url('../album/flag-8011408_640.png');
+    }
+    #peru {
+        background: url('../album/peru-162390_640.png');
+    }
+    #france {
+        background: url('../album/france-162295_640.png');
+    }
+    #germany {
+        background: url('../album/germany-162301_640.png');
+    }
+    #italy {
+        background: url('../album/flag-160485_640.png');
+    }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    /* タブレット用 */
+    /* 基本CSS */
+    body {
+        background-color: lightyellow;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 24px;
+        color: black;
+    }
+    h1 {
+        font-size: 32px;
+        color: violet;
+        text-align: center;
+    }
+    h2 {
+        font-size: 24px;
+        color: black;
+        text-align: left;
+    }
+    h3 {
+        font-size: 24px;
+        color: black;
+    }
+    .item {
+        background: blanchedalmond;
+        text-align: center;
+        margin: 5px;
+        padding: 25px;
+    }
+    img {
+        height: 200px;
+        width: 300px;
+        position: relative;
+        text-align: center;
+    }
+    
+    
+    /* JSで出力される部分の装飾 */
+    .answer {
+        text-align: center;
+        margin-top:20px;
+        font-size: 30px;
+        color: violet;
+    }
+    .translatedAnswer {
+        text-align: center;
+        margin-top:20px;
+        font-size: 30px;
+        color: blue;
+    }
+    
+    
+    /* ボタンの装飾 */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 350px 350px;
+        margin: auto;
+    }
+    .choice {
+        display       : inline-block;
+        border-radius : 5%;          
+        font-size: 21px;
+        text-align    : center;      
+        cursor        : pointer;     
+        padding       : 12px 12px;   
+        background    : violet;     
+        color         : black;     
+        line-height   : 1em;         
+        transition    : .3s;         
+        box-shadow    : 6px 6px 3px #666666;  
+        border        : 2px solid #000066;    
+    }
+    .button:hover {
+        box-shadow    : none;        
+        color         : #000066;     
+        background    : #ffffff;     
+    }
+    
+    
+    /* 国旗ボタンの装飾 */
+    .container2 {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 250px 250px 250px;
+        margin: auto;
+    }
+    .choice2 {
+        font-size: 36px;
+        color: blue;
+        width: 200px;
+        height: 110px;
+    }
+    #usa {
+        background: url('../album/american-flag-2144392_640.png');
+    }
+    #china {
+        background: url('../album/china-162389_640.png');
+    }
+    #korea {
+        background: url('../album/korean-flag-1424985_640.png');
+    }
+    #vietnam {
+        background: url('../album/vietnam-26834_640.png');
+    }
+    #brazil {
+        background: url('../album/brazil-305531_640.png');
+    }
+    #nepal {
+        background: url('../album/nepal-162370_640.png');
+    }
+    #indonesia {
+        background: url('../album/indonesia-26817_640.png');
+    }
+    #myanmar {
+        background: url('../album/flag-8011408_640.png');
+    }
+    #peru {
+        background: url('../album/peru-162390_640.png');
+    }
+    #france {
+        background: url('../album/france-162295_640.png');
+    }
+    #germany {
+        background: url('../album/germany-162301_640.png');
+    }
+    #italy {
+        background: url('../album/flag-160485_640.png');
+    }
+}
+
+@media screen and (max-width: 719px) {
+    /* スマホ用 */
+    /* 基本CSS */
+    body {
+        background-color: lightyellow;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 10px;
+        color: black;
+    }
+    h1 {
+        font-size: 18px;
+        color: violet;
+        text-align: center;
+    }
+    h2 {
+        font-size: 16px;
+        color: black;
+        text-align: left;
+    }
+    h3 {
+        font-size: 14px;
+        color: black;
+    }
+    .item {
+        background: blanchedalmond;
+        text-align: center;
+        margin: 5px;
+        padding: 25px;
+    }
+    img {
+        height: 100px;
+        width: 150px;
+        position: relative;
+        text-align: center;
+    }
+    
+    
+    /* JSで出力される部分の装飾 */
+    .answer {
+        text-align: center;
+        margin-top:8px;
+        font-size: 18px;
+        color: violet;
+    }
+    .translatedAnswer {
+        text-align: center;
+        margin-top:8px;
+        font-size: 18px;
+        color: blue;
+    }
+    
+    
+    /* ボタンの装飾 */
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 200px 200px;
+        margin: auto;
+    }
+    .choice {
+        display       : inline-block;
+        border-radius : 5%;          
+        font-size: 15px;
+        text-align    : center;      
+        cursor        : pointer;     
+        padding       : 12px 12px;   
+        background    : violet;     
+        color         : black;     
+        line-height   : 1em;         
+        transition    : .3s;         
+        box-shadow    : 6px 6px 3px #666666;  
+        border        : 2px solid #000066;    
+    }
+    .button:hover {
+        box-shadow    : none;        
+        color         : #000066;     
+        background    : #ffffff;     
+    }
+    
+    
+    /* 国旗ボタンの装飾 */
+    .container2 {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 200px 200px;
+        margin: auto;
+    }
+    .choice2 {
+        font-size: 15px;
+        color: blue;
+        width: 180px;
+        height: 100px;
+    }
+    #usa {
+        background: url('../album/american-flag-2144392_640.png');
+    }
+    #china {
+        background: url('../album/china-162389_640.png');
+    }
+    #korea {
+        background: url('../album/korean-flag-1424985_640.png');
+    }
+    #vietnam {
+        background: url('../album/vietnam-26834_640.png');
+    }
+    #brazil {
+        background: url('../album/brazil-305531_640.png');
+    }
+    #nepal {
+        background: url('../album/nepal-162370_640.png');
+    }
+    #indonesia {
+        background: url('../album/indonesia-26817_640.png');
+    }
+    #myanmar {
+        background: url('../album/flag-8011408_640.png');
+    }
+    #peru {
+        background: url('../album/peru-162390_640.png');
+    }
+    #france {
+        background: url('../album/france-162295_640.png');
+    }
+    #germany {
+        background: url('../album/germany-162301_640.png');
+    }
+    #italy {
+        background: url('../album/flag-160485_640.png');
+    }
+}

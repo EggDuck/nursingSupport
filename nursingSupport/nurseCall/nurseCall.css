@@ -1,0 +1,437 @@
+@media screen and (min-width: 1025px) {
+    /* PC用 */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 21px;;
+        background-color: #f4f4f4;
+    }
+    .home {
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .containerForm {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        text-align: left;
+    }
+    button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    .app {
+        font-family: Arial, sans-serif;
+        font-size: 21px;;
+        background-color: #f4f4f4;
+        margin: 5%;
+    }
+    
+    /* translation引用 */
+    .item {
+        background: #e3f7e4;
+        text-align: center;
+        margin: 5px;
+        padding: 25px;
+    }
+    img {
+        height: 210px;
+        width: 315px;
+        position: relative;
+        text-align: center;
+    }
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 420px 420px 420px;
+        margin: auto;
+    }
+    .choice {
+        display       : inline-block;
+        border-radius : 5%;          
+        font-size: 21px;
+        text-align    : center;      
+        cursor        : pointer;     
+        padding       : 12px 12px;   
+        background    : #91f596;     
+        color         : black;     
+        line-height   : 1em;         
+        transition    : .3s;         
+        box-shadow    : 6px 6px 3px #666666;  
+        border        : 2px solid #000066;    
+    }
+    .button:hover {
+        box-shadow    : none;        
+        color         : #000066;     
+        background    : #ffffff;     
+    }
+    
+    /* app装飾 */
+    .box {
+        visibility: hidden;
+        height: 0px;
+    }
+    .box2 {
+        visibility: hidden;
+        height: 0px;
+    }
+    .box3 {
+        visibility: hidden;
+        height: 0px;
+    }
+    .msg {
+        text-align: center;
+        color: #4caf50;
+    }
+    .home2 {
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerForm2 {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    
+    /* table */
+    th, td {
+        border: solid 1px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    table {
+        border-collapse:  collapse;
+    }
+    
+    table > thead > tr > th {
+        color: #000066;
+        background-color: #91f596;
+    }
+    
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    /* タブレット用 */
+    body {
+        font-family: Arial, sans-serif;
+        font-size: 21px;;
+        background-color: #f4f4f4;
+    }
+    .home {
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .containerForm {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        text-align: left;
+    }
+    button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 24px;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+    
+    .app {
+        font-family: Arial, sans-serif;
+        font-size: 21px;;
+        background-color: #f4f4f4;
+        margin: 5%;
+    }
+    
+    /* translation引用 */
+    .item {
+        background: #e3f7e4;
+        text-align: center;
+        margin: 5px;
+        padding: 25px;
+    }
+    img {
+        height: 200px;
+        width: 300px;
+        position: relative;
+        text-align: center;
+    }
+    .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 350px 350px;
+        margin: auto;
+    }
+    .choice {
+        display       : inline-block;
+        border-radius : 5%;          
+        font-size: 21px;
+        text-align    : center;      
+        cursor        : pointer;     
+        padding       : 12px 12px;   
+        background    : #91f596;     
+        color         : black;     
+        line-height   : 1em;         
+        transition    : .3s;         
+        box-shadow    : 6px 6px 3px #666666;  
+        border        : 2px solid #000066;    
+    }
+    .button:hover {
+        box-shadow    : none;        
+        color         : #000066;     
+        background    : #ffffff;     
+    }
+    
+    /* app装飾 */
+    .box {
+        visibility: hidden;
+        height: 0px;
+    }
+    .box2 {
+        visibility: hidden;
+        height: 0px;
+    }
+    .box3 {
+        visibility: hidden;
+        height: 0px;
+    }
+    .msg {
+        text-align: center;
+        color: #4caf50;
+    }
+    .home2 {
+        margin: 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containerForm2 {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        text-align: center;
+    }
+    
+    /* table */
+    th, td {
+        border: solid 1px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    table {
+        border-collapse:  collapse;
+    }
+    
+    table > thead > tr > th {
+        color: #000066;
+        background-color: #91f596;
+    }
+
+}
+
+@media screen and (max-width: 719px) {
+        /* スマホ用 */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 21px;;
+            background-color: #f4f4f4;
+        }
+        .home {
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .containerForm {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            text-align: left;
+        }
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 24px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        
+        .app {
+            font-family: Arial, sans-serif;
+            font-size: 21px;;
+            background-color: #f4f4f4;
+            margin: 5%;
+        }
+        
+        /* translation引用 */
+        .item {
+            background: #e3f7e4;
+            text-align: center;
+            margin: 5px;
+            padding: 25px;
+        }
+        img {
+            height: 200px;
+            width: 300px;
+            position: relative;
+            text-align: center;
+        }
+        .container {
+            display: grid;
+            justify-content: center;
+            grid-template-columns: 350px;
+            margin: auto;
+        }
+        .choice {
+            display       : inline-block;
+            border-radius : 5%;          
+            font-size: 21px;
+            text-align    : center;      
+            cursor        : pointer;     
+            padding       : 12px 12px;   
+            background    : #91f596;     
+            color         : black;     
+            line-height   : 1em;         
+            transition    : .3s;         
+            box-shadow    : 6px 6px 3px #666666;  
+            border        : 2px solid #000066;    
+        }
+        .button:hover {
+            box-shadow    : none;        
+            color         : #000066;     
+            background    : #ffffff;     
+        }
+        
+        /* app装飾 */
+        .box {
+            visibility: hidden;
+            height: 0px;
+        }
+        .box2 {
+            visibility: hidden;
+            height: 0px;
+        }
+        .box3 {
+            visibility: hidden;
+            height: 0px;
+        }
+        .msg {
+            text-align: center;
+            color: #4caf50;
+        }
+        .home2 {
+            margin: 5%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .containerForm2 {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        
+        /* table */
+        th, td {
+            border: solid 1px;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        table {
+            border-collapse:  collapse;
+        }
+        
+        table > thead > tr > th {
+            color: #000066;
+            background-color: #91f596;
+        }
+    
+}
